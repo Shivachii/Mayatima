@@ -13,7 +13,7 @@ const FloatingLabelInput: React.FC<FloatingLabelInputProps> = ({
   id,
   label,
   name,
-  type = "text " || "email",
+  type = "text ",
   className = "",
   ariaLabel,
 }) => {
