@@ -51,21 +51,21 @@ function NavMotion() {
               <Link
                 href="https://twitter.com/yourprofile"
                 aria-label="Twitter"
-                className="bg-yellow-300 rounded-full p-2 flex justify-center items-center"
+                className="bg-blue-300 rounded-full p-2 flex justify-center items-center"
               >
                 <Twitter fill="#ffff" strokeWidth={0} width={20} height={20} />
               </Link>
               <Link
                 href="https://facebook.com/yourprofile"
                 aria-label="Facebook"
-                className="bg-yellow-300 rounded-full p-2 flex justify-center items-center"
+                className="bg-blue-300 rounded-full p-2 flex justify-center items-center"
               >
                 <Facebook fill="#ffff" strokeWidth={0} width={20} height={20} />
               </Link>
               <Link
                 href="https://linkedin.com/in/yourprofile"
                 aria-label="LinkedIn"
-                className="bg-yellow-300 rounded-full p-2 flex justify-center items-center"
+                className="bg-blue-300 rounded-full p-2 flex justify-center items-center"
               >
                 <Linkedin fill="#ffff" strokeWidth={0} width={20} height={20} />
               </Link>

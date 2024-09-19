@@ -34,12 +34,16 @@ const BackgroundImage: React.FC<BackgroundImageProps> = ({
 
   return (
     <div
-      className={` bg-cover bg-center w-[800px] h-[500px] p-2 m-2 ${className}`}
+      className={`flex flex-col justify-center items-center bg-cover bg-center w-[800px] h-[500px] p-2 m-2 ${className}`}
       style={{
         backgroundImage: `url(${currentImageUrl})`,
         ...style,
       }}
     >
+      <div className=" font-bold text-white  text-2xl">
+        TRANSFORMING <span className=" text-yellow-300"> ORPHAN&apos;S</span>{" "}
+        LIVES
+      </div>
       {children}
     </div>
   );

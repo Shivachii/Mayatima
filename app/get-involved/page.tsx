@@ -1,12 +1,9 @@
-import Header from "@/app/components/get-involved/Header";
 import Link from "next/link";
 import React from "react";
 
 const GetInvolved = () => {
   return (
     <main className="w-full h-full">
-      {/* Header Section */}
-      <Header />
       {/* Involvement Section */}
       <div className="relative p-4 m-4">
         <h1 className="m-4 text-justify">

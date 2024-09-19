@@ -1,12 +1,9 @@
-import Header from "@/app/components/get-involved/events/Header";
 import Link from "next/link";
 import React from "react";
 
 const page = () => {
   return (
     <main className="w-full h-full">
-      {/* Header Section */}
-      <Header />
       {/* Events Section */}
       <div className="m-4 p-4">
         <h1 className="text-justify">

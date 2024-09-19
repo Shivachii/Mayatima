@@ -1,11 +1,8 @@
-import Header from "@/app/components/about/Header";
 import React from "react";
 
 const About = () => {
   return (
     <main className="w-full h-full">
-      {/* Header section */}
-      <Header />
       {/* Intro section */}
       <div
         id="who-we-are"
