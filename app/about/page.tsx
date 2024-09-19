@@ -7,7 +7,10 @@ const About = () => {
       {/* Header section */}
       <Header />
       {/* Intro section */}
-      <div className="relative flex flex-col m-2 p-2 md:m-8 md:p-8 items-center justify-center text-center">
+      <div
+        id="who-we-are"
+        className="relative flex flex-col m-2 p-2 md:m-8 md:p-8 items-center justify-center text-center"
+      >
         <div className=" bg-blue-600 w-16 h-0.5 md:w-24 md:h-0.5 m-4 rounded-md "></div>
         <p className="p-2 m-2 text-justify font-sans leading-normal md:leading-6 text-lg md:text-xl">
           [Charity Name] is a Kenyan-based organization devoted to making a
@@ -18,7 +21,10 @@ const About = () => {
         </p>
       </div>
       {/* What we do section */}
-      <div className="flex flex-col md:flex md:flex-row space-x-2 p-2 m-2 md:p-4 md:m-8">
+      <div
+        id="what-we-do"
+        className="flex flex-col md:flex md:flex-row space-x-2 p-2 m-2 md:p-4 md:m-8"
+      >
         <div className="font-medium items-center text-center text-yellow-400 text-3xl md:text-4xl lg:text-5xl w-full md:w-1/3 my-8">
           <h1 className="">What We Do</h1>
         </div>
@@ -68,7 +74,10 @@ const About = () => {
         </div>
       </div>
       {/* How we work section */}
-      <div className="flex flex-col md:flex md:flex-row space-x-2 p-2 m-2 md:p-4 md:m-8">
+      <div
+        id="how-we-work"
+        className="flex flex-col md:flex md:flex-row space-x-2 p-2 m-2 md:p-4 md:m-8"
+      >
         <div className="font-medium items-center text-center text-yellow-400 text-3xl md:text-4xl lg:text-5xl w-full md:w-1/3 my-8">
           <h1>How we Work</h1>
         </div>

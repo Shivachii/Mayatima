@@ -54,23 +54,21 @@ const Navbar = () => {
             <div className="dropdown">
               <button className="dropbtn">Who we Are</button>
               <div className="dropdown-content z-50">
-                <Link href="/pages/about/mission-vision">
-                  Mission and Vision
-                </Link>
-                <Link href="/pages/about">About us</Link>
+                <Link href="/about/mission-vision">Mission and Vision</Link>
+                <Link href="/about">About us</Link>
               </div>
             </div>
-            <Link href="#projects">Projects</Link>
+            <Link href="/projects">Projects</Link>
             <div className="dropdown">
               <button className="dropbtn">Get Involved</button>
               <div className="dropdown-content z-50">
-                <Link href="/pages/get-involved">Find out how to</Link>
+                <Link href="/get-involved">Find out how to</Link>
                 <Link href="#">Donate</Link>
-                <Link href="/pages/get-involved/events">Events</Link>
-                <Link href="/pages/get-involved/volunteer">Volunteer</Link>
+                <Link href="/get-involved/events">Events</Link>
+                <Link href="/get-involved/volunteer">Volunteer</Link>
               </div>
             </div>
-            <Link href="/pages/contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
             <Link href="#news">News</Link>
           </div>
         </div>
@@ -127,13 +125,13 @@ const Navbar = () => {
               </div>
               {isAboutOpen && (
                 <div className="flex flex-col space-y-2  transform-all ease-in duration-500 max-h-40 overflow-hidden bg-gray-100 p-2 mt-2">
-                  <Link href="">About</Link>
-                  <Link href="">Mission and Vision</Link>
+                  <Link href="/about">About</Link>
+                  <Link href="/about/mission-vision">Mission and Vision</Link>
                 </div>
               )}
             </div>
             <div className="bg-blue-400 w-64 h-0.5"></div>
-            <Link href="">Projects</Link>
+            <Link href="/projects">Projects</Link>
             <div className="bg-blue-400 w-64 h-0.5"></div>
 
             <div className="flex flex-col space-y-2 w-full">
@@ -152,8 +150,8 @@ const Navbar = () => {
               {isGetInvolved && (
                 <div className="flex flex-col space-y-2  transform-all ease-in duration-500 max-h-40 overflow-hidden bg-gray-100 p-2 mt-2">
                   <Link href="">Donate</Link>
-                  <Link href="">Volunteer</Link>
-                  <Link href="">Events</Link>
+                  <Link href="/get-involved/volunteer">Volunteer</Link>
+                  <Link href="/get-involved/events">Events</Link>
                 </div>
               )}
             </div>
@@ -162,7 +160,7 @@ const Navbar = () => {
             <Link href="">News</Link>
             <div className="bg-blue-400 w-64 h-0.5"></div>
 
-            <Link href="/pages/contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
             <div className="bg-blue-400 w-64 h-0.5"></div>
           </div>
         </div>
